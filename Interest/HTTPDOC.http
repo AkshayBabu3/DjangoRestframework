@@ -1,0 +1,40 @@
+
+
+###
+POST http://127.0.0.1:8000/interest/
+Content-Type: application/json
+
+{
+    "principal":2000,
+    "rate":10,
+    "time":2
+}
+
+###
+POST http://127.0.0.1:8000/discount/
+Content-Type: application/json
+
+{
+    "price":7000,
+    "discount":8
+}
+###
+POST  http://127.0.0.1:8000/profit/
+content-type:application/json
+
+{
+    "selling_price":1200,
+    "cost_price":1000
+}
+
+
+###
+
+POST  http://127.0.0.1:8000/salary/
+Content-Type: application/json
+
+{
+    "basic_salary":30000,
+    "bonus":5000,
+    "deduction":2000
+}

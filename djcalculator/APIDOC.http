@@ -1,0 +1,66 @@
+
+
+#API Call for Adding Two Elements
+###
+POST http://127.0.0.1:8000/Addition/
+Content-Type: application/json
+
+{
+    "num1":67,
+    "num2":69
+}
+
+###
+POST http://127.0.0.1:8000/Substraction/
+Content-Type: application/json
+
+{
+    "num1":10,
+    "num2":2
+}
+
+###
+POST  http://127.0.0.1:8000/multiplication/
+Content-Type: application/json
+
+{
+    "num1":14,
+    "num2":23
+}
+
+###
+POST http://127.0.0.1:8000/division/
+Content-Type: application/json
+
+{
+    "num1":20,
+    "num2":10
+}
+
+
+###
+POST  http://127.0.0.1:8000/modulus/
+Content-Type: application/json
+
+{
+    "num1":19,
+    "num2":20
+    }
+
+###
+POST  http://127.0.0.1:8000/bmi/
+Content-Type: application/json
+
+{
+    "weight":65,
+    "height":160
+}
+
+###
+POST http://127.0.0.1:8000/age/
+Content-Type: application/json
+
+{
+    "current":2026,
+    "birth":2003
+}

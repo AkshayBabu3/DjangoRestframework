@@ -1,0 +1,28 @@
+
+
+
+
+#Call for education
+###
+GET http://127.0.0.1:8000/education/
+Accept: application/json
+
+#Call for Project
+###
+GET http://127.0.0.1:8000/project/
+Accept: application/json
+
+#Call for Skill
+###
+GET http://127.0.0.1:8000/skill/
+Accept: application/json
+
+#call for experience
+###
+GET http://127.0.0.1:8000/experience/
+Accept: application/json
+
+#Call for Certificate
+###
+GET http://127.0.0.1:8000/certificate/
+Accept: application/json
